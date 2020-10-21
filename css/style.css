@@ -1,0 +1,95 @@
+/* global */
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Lora', serif;
+}
+
+
+/* carousel styling */
+
+.carousel-inner>.item {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}
+
+#gendisplay {
+    height: 70%;
+}
+
+.carousel-caption,
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+    color: #15ff00d8;
+}
+
+
+/* end carousel */
+
+
+/* FOOTER */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(102, 102, 102);
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours,
+#address {
+    line-height: 2;
+}
+
+#hours>span,
+#address>span {
+    font-size: 1.3em;
+}
+
+#address p {
+    color: #60fa07;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#testimonials {
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+
+
+/* END FOOTER */
+
+
+/* products html */
+
+.row>div {
+    padding: 0 4px;
+}
+
+img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    transition: all .35s ease;
+}
+
+center {
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+}
+
+center h1 {
+    color: #517ed3f1;
+}
